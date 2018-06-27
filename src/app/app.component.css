@@ -1,0 +1,26 @@
+.contenedor {
+    display: flex;
+    height: 700px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.hijo{
+  width: 320px;
+  height: 200px;
+}
+.hijo.uno{
+    background-color: brown;
+    flex: 1;
+}
+
+.hijo.dos{
+    background-color: blueviolet;
+    flex: 1;
+}
+
+.hijo.tres{
+    background-color: blue;
+    flex: 1;
+}
